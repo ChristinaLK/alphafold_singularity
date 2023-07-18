@@ -1,0 +1,13 @@
+# to be used interactively to build the alphafold container
+universe = vanilla
+log = build.log
+
+# change the name of the file to be the name of your source code
+transfer_input_files = alphafold.def, alphafold.py, base.def, monomer.sh, multimer.sh
+
++IsBuildJob = true
+request_cpus = 4
+request_memory = 32GB
+request_disk = 100GB
+
+queue
