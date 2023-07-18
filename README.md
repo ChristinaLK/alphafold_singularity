@@ -43,7 +43,7 @@ universe = container
 container_image = file:///staging/YOUR_USERNAME/alphafold.sif
 transfer_executable = false
 
-executable = /opt/monomer.sh
+executable = /opt/alphafold/monomer.sh
 # replace with multimer.sh if applicable
 arguments = /gpulab_data/alphafold FASTA_file (optional) (optional)
 
